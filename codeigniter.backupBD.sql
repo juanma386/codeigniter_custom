@@ -167,7 +167,11 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`id_usuario`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
-INSERT INTO `usuario` (`id_usuario`, `email`, `cuenta`, `password`, `ci`, `nombres`, `paterno`, `materno`) VALUES (11, admi@gmail.com, smith, a66e44736e753d4533746ced572ca821, 200093, smith, amber, christalle);
-INSERT INTO `usuario` (`id_usuario`, `email`, `cuenta`, `password`, `ci`, `nombres`, `paterno`, `materno`) VALUES (13, amilkar@gmail.com, amilkar, 74ddea29f66c36e026cf0e5b056b9e6b, 2147483647, amilkar, estrada, suarez);
+#
+# INSERT DATA: usuario
+#
+
+INSERT INTO `usuario` (`id_usuario`, `email`, `cuenta`, `password`, `ci`, `nombres`, `paterno`, `materno`) VALUES (11, 'admin@gmail.com', 'smith', '21232f297a57a5a743894a0e4a801fc3', 200093, 'smith', 'amber', 'christalle');
+INSERT INTO `usuario` (`id_usuario`, `email`, `cuenta`, `password`, `ci`, `nombres`, `paterno`, `materno`) VALUES (13, 'amilkar@gmail.com', 'amilkar', '74ddea29f66c36e026cf0e5b056b9e6b', 2147483647, 'amilkar', 'estrada', 'suarez');
 
 
